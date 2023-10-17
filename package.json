@@ -1,0 +1,38 @@
+{
+  "name": "b8a10-brandshop-client-side",
+  "version": "1.0.0",
+  "description": "Automotive",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programming-hero-web-course-4/b8a10-brandshop-client-side-fdfiroz.git"
+  },
+  "keywords": [
+    "Toyota",
+    "Ford",
+    "BMW",
+    "Mercedes-Benz",
+    "Tesla",
+    "Honda"
+  ],
+  "author": "Firoz Ahammad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programming-hero-web-course-4/b8a10-brandshop-client-side-fdfiroz/issues"
+  },
+  "homepage": "https://github.com/programming-hero-web-course-4/b8a10-brandshop-client-side-fdfiroz#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
