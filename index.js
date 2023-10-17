@@ -92,7 +92,27 @@ async function run() {
         res.send(categories);
     })
 
-
+// add to cart
+    const cartCollection = client.db("AutomotiveDB").collection("cart");
+    app.post("/api/add-to-cart", async (req, res) => {
+        const newProduct = req.body;
+        console.log('adding new product: ', newProduct);
+        const result = await cartCollection.insertOne(newProduct);
+        res.send(result);
+    })
+    //get cart by email
+    app.post("/api/cart", async (req, res) => {
+        const email = req.body.email;
+        const cursor = cartCollection.find({email: email});
+        const products = await cursor.toArray();
+        res.send(products);
+    })
+    //delete from cart by email
+    app.delete("/api/delete-from-cart/:id", async (req, res) => {
+        const id = req.params.id;
+        const result = await cartCollection.deleteOne({_id: new ObjectId(id)});
+        res.send(result);
+    })
     
 
 
