@@ -33,9 +33,28 @@ async function run() {
             res.send(result);
             
     })
+    // send motorcycles
+    app.get("/motorcycles", async (req, res) => {
+        const cursor = productsCollection.find({category: "Motorcycle"});
+        const products = await cursor.toArray();
+        res.send(products);
+    })
+    // send cars
+    app.get("/cars", async (req, res) => {
+        const cursor = productsCollection.find({category: "Car"});
+        const products = await cursor.toArray();
+        res.send(products|| []);
+    })
+    // showproduct by id
+    app.get("/product/:id", async (req, res) => {
+        const id = req.params.id;
+        const cursor = productsCollection.find({_id: new ObjectId(id)});
+        const products = await cursor.toArray();
+        res.send(products || []);
+    })
     //show product by Uid
-    app.post("/product-by-uid", async (req, res) => {
-        const uid = req.body.uid;
+    app.get("/products/:uid", async (req, res) => {
+        const uid = req.params.uid;
         const cursor = productsCollection.find({uid: uid});
         const products = await cursor.toArray();
         res.send(products);
@@ -66,18 +85,18 @@ async function run() {
     app.put("/update-product/:id", async (req, res) => {
         const id = req.params.id;
         const updatedProduct = req.body;
-        console.log('updating product: ', id);
+        console.log(updatedProduct);
         const filter = { _id: new ObjectId(id) };
 
         const options = { upsert: true };
         const updateDoc = {
             $set: {
+                uid: updatedProduct.uid,
                 name: updatedProduct.name,
                 price: updatedProduct.price,
-                quantity: updatedProduct.quantity,
                 description: updatedProduct.description,
-                img: updatedProduct.img,
-                brand: updatedProduct.brand,
+                image: updatedProduct.image,
+                brandName: updatedProduct.brandName,
                 category: updatedProduct.category,
                 rating: updatedProduct.rating,
                 suggestion: updatedProduct.suggestion
@@ -99,18 +118,19 @@ async function run() {
     });
 // add to cart
     const cartCollection = client.db("AutomotiveDB").collection("cart");
-    app.post("/add-to-cart", async (req, res) => {
+    app.post("/cart", async (req, res) => {
         const newProduct = req.body;
         console.log('adding new product: ', newProduct);
         const result = await cartCollection.insertOne(newProduct);
         res.send(result);
     })
     //get cart by email
-    app.post("/user-cart", async (req, res) => {
-        const email = req.body.email;
-        const cursor = cartCollection.findOne({email: email});
+    app.post("/cart/:email", async (req, res) => {
+        const email = req.params.email;
+        const cursor = cartCollection.find({email: email});
         const products = await cursor.toArray();
         res.send(products);
+       
     })
     //delete from cart by email
     app.delete("/cart-product/:id", async (req, res) => {
@@ -139,12 +159,7 @@ async function run() {
         res.send(result);
     })
     //get user info by email
-    app.post("/user-info", async (req, res) => {
-        const email = req.body.email;
-        const cursor = userInfoCollection.find({email: email});
-        const userInfo = await cursor.toArray();
-        res.send(userInfo);
-    })
+    
     //update user info
     app.patch("/user", async (req, res) => {
         const user = req.body;
