@@ -1,0 +1,425 @@
+[
+  {
+    "image": "bike1.jpg",
+    "name": "Honda CBR150R",
+    "brandName": "Honda",
+    "category ": "Motorcycle",
+    "price": "250000",
+    "rating": "4.5",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car1.jpg",
+    "name": "Toyota Corolla",
+    "brandName": "Toyota",
+    "category ": "Car",
+    "price": "3000000",
+    "rating": "4.2",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike2.jpg",
+    "name": "Yamaha FZS-FI V3",
+    "brandName": "Yamaha",
+    "category ": "Motorcycle",
+    "price": "220000",
+    "rating": "4.3",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car2.jpg",
+    "name": "Suzuki Swift",
+    "brandName": "Suzuki",
+    "category ": "Car",
+    "price": "2500000",
+    "rating": "4.0",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike3.jpg",
+    "name": "Bajaj Pulsar 150",
+    "brandName": "Bajaj",
+    "category ": "Motorcycle",
+    "price": "180000",
+    "rating": "4.1",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car3.jpg",
+    "name": "Nissan Sunny",
+    "brandName": "Nissan",
+    "category ": "Car",
+    "price": "2200000",
+    "rating": "3.9",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike4.jpg",
+    "name": "TVS Apache RTR 160 4V",
+    "brandName": "TVS",
+    "category ": "Motorcycle",
+    "price": "200000",
+    "rating": "4.0",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car4.jpg",
+    "name": "Mitsubishi Lancer",
+    "brandName": "Mitsubishi",
+    "category ": "Car",
+    "price": "2800000",
+    "rating": "3.8",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike5.jpg",
+    "name": "Hero Glamour",
+    "brandName": "Hero",
+    "category ": "Motorcycle",
+    "price": "150000",
+    "rating": "3.9",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car5.jpg",
+    "name": "Hyundai Elantra",
+    "brandName": "Hyundai",
+    "category ": "Car",
+    "price": "3200000",
+    "rating": "3.7",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike6.jpg",
+    "name": "Suzuki Gixxer SF",
+    "brandName": "Suzuki",
+    "category ": "Motorcycle",
+    "price": "230000",
+    "rating": "3.8",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car6.jpg",
+    "name": "Honda Civic",
+    "brandName": "Honda",
+    "category ": "Car",
+    "price": "3400000",
+    "rating": "3.6",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike7.jpg",
+    "name": "Yamaha FZ V3",
+    "brandName": "Yamaha",
+    "category ": "Motorcycle",
+    "price": "210000",
+    "rating": "3.7",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car7.jpg",
+    "name": "Kia Rio",
+    "brandName": "Kia",
+    "category ": "Car",
+    "price": "2600000",
+    "rating": "3.5",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike8.jpg",
+    "name": "Bajaj Discover 125",
+    "brandName": "Bajaj",
+    "category ": "Motorcycle",
+    "price": "130000",
+    "rating": "3.6",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car8.jpg",
+    "name": "Ford Fiesta",
+    "brandName": "Ford",
+    "category ": "Car",
+    "price": "3000000",
+    "rating": "3.4",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike9.jpg",
+    "name": "TVS Apache RTR 160",
+    "brandName": "TVS",
+    "category ": "Motorcycle",
+    "price": "190000",
+    "rating": "3.5",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car9.jpg",
+    "name": "Chevrolet Cruze",
+    "brandName": "Chevrolet",
+    "category ": "Car",
+    "price": "2800000",
+    "rating": "3.3",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike10.jpg",
+    "name": "Hero Hunk",
+    "brandName": "Hero",
+    "category ": "Motorcycle",
+    "price": "170000",
+    "rating": "3.4",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car10.jpg",
+    "name": "Volkswagen Vento",
+    "brandName": "Volkswagen",
+    "category ": "Car",
+    "price": "3200000",
+    "rating": "3.2",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike11.jpg",
+    "name": "Honda CB Shine",
+    "brandName": "Honda",
+    "category ": "Motorcycle",
+    "price": "160000",
+    "rating": "3.3",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car11.jpg",
+    "name": "Tata Indigo",
+    "brandName": "Tata",
+    "category ": "Car",
+    "price": "2400000",
+    "rating": "3.1",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike12.jpg",
+    "name": "Yamaha FZS-FI V2",
+    "brandName": "Yamaha",
+    "category ": "Motorcycle",
+    "price": "200000",
+    "rating": "3.2",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car12.jpg",
+    "name": "Renault Duster",
+    "brandName": "Renault",
+    "category ": "Car",
+    "price": "2800000",
+    "rating": "3.0",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike13.jpg",
+    "name": "Bajaj Avenger Cruise 220",
+    "brandName": "Bajaj",
+    "category ": "Motorcycle",
+    "price": "250000",
+    "rating": "3.1",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car13.jpg",
+    "name": "Mazda Axela",
+    "brandName": "Mazda",
+    "category ": "Car",
+    "price": "3000000",
+    "rating": "2.9",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike14.jpg",
+    "name": "TVS Apache RTR 200 4V",
+    "brandName": "TVS",
+    "category ": "Motorcycle",
+    "price": "240000",
+    "rating": "3.0",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car14.jpg",
+    "name": "Subaru Impreza",
+    "brandName": "Subaru",
+    "category ": "Car",
+    "price": "3400000",
+    "rating": "2.8",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike15.jpg",
+    "name": "Hero Xtreme 160R",
+    "brandName": "Hero",
+    "category ": "Motorcycle",
+    "price": "180000",
+    "rating": "2.9",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car15.jpg",
+    "name": "Peugeot 301",
+    "brandName": "Peugeot",
+    "category ": "Car",
+    "price": "2600000",
+    "rating": "2.7",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike16.jpg",
+    "name": "Honda Livo",
+    "brandName": "Honda",
+    "category ": "Motorcycle",
+    "price": "150000",
+    "rating": "2.8",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car16.jpg",
+    "name": "Proton Persona",
+    "brandName": "Proton",
+    "category ": "Car",
+    "price": "2800000",
+    "rating": "2.6",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike17.jpg",
+    "name": "Yamaha Saluto",
+    "brandName": "Yamaha",
+    "category ": "Motorcycle",
+    "price": "140000",
+    "rating": "2.7",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car17.jpg",
+    "name": "Chery Tiggo 3",
+    "brandName": "Chery",
+    "category ": "Car",
+    "price": "3200000",
+    "rating": "2.5",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike18.jpg",
+    "name": "Bajaj Pulsar NS160",
+    "brandName": "Bajaj",
+    "category ": "Motorcycle",
+    "price": "190000",
+    "rating": "2.6",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car18.jpg",
+    "name": "Geely Emgrand 7",
+    "brandName": "Geely",
+    "category ": "Car",
+    "price": "3000000",
+    "rating": "2.4",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike19.jpg",
+    "name": "TVS Apache RTR 180",
+    "brandName": "TVS",
+    "category ": "Motorcycle",
+    "price": "200000",
+    "rating": "2.5",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car19.jpg",
+    "name": "Citroen C4",
+    "brandName": "Citroen",
+    "category ": "Car",
+    "price": "3400000",
+    "rating": "2.3",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike20.jpg",
+    "name": "Hero Splendor iSmart",
+    "brandName": "Hero",
+    "category ": "Motorcycle",
+    "price": "130000",
+    "rating": "2.4",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car20.jpg",
+    "name": "Fiat Linea",
+    "brandName": "Fiat",
+    "category ": "Car",
+    "price": "2800000",
+    "rating": "2.2",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike21.jpg",
+    "name": "Honda Dream Yuga",
+    "brandName": "Honda",
+    "category ": "Motorcycle",
+    "price": "120000",
+    "rating": "2.3",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car21.jpg",
+    "name": "Mahindra Verito",
+    "brandName": "Mahindra",
+    "category ": "Car",
+    "price": "2600000",
+    "rating": "2.1",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike22.jpg",
+    "name": "Yamaha SZ-RR",
+    "brandName": "Yamaha",
+    "category ": "Motorcycle",
+    "price": "130000",
+    "rating": "2.2",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car22.jpg",
+    "name": "Opel Astra",
+    "brandName": "Opel",
+    "category ": "Car",
+    "price": "3000000",
+    "rating": "2.0",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike23.jpg",
+    "name": "Bajaj CT100",
+    "brandName": "Bajaj",
+    "category ": "Motorcycle",
+    "price": "90000",
+    "rating": "2.1",
+    "suggestion ": "true"
+  },
+  {
+    "image": "car23.jpg",
+    "name": "SsangYong Tivoli",
+    "brandName": "SsangYong",
+    "category ": "Car",
+    "price": "3200000",
+    "rating": "1.9",
+    "suggestion ": "true"
+  },
+  {
+    "image": "bike24.jpg",
+    "name": "TVS Radeon",
+    "brandName": "TVS",
+    "category ": "Motorcycle",
+    "price": "110000",
+    "rating": "2.0",
+    "suggestion ": "true"
+  }
+]
