@@ -24,11 +24,10 @@ const client = new MongoClient(uri, {
 async function run() {
     try {
         // Connect the client to the server	(optional starting in v4.7)
-         await client.connect();
+         client.connect();
         const productsCollection = client.db("AutomotiveDB").collection("products");
         app.post("/product", async (req, res) => {
             const newProduct = req.body;
-            console.log('adding new product: ', newProduct);
             const result = await productsCollection.insertOne(newProduct);
             res.send(result);
             
@@ -72,6 +71,19 @@ async function run() {
         
         res.send( products);
     })
+
+    //send brands
+    app.get("/brand/:brandName", async (req, res) => {
+        const brand = req.params.brandName;
+        const cursor = await productsCollection.find({brandName: brand}).toArray();
+        res.send(cursor);
+    })
+    //suggestion products
+    app.get("/suggestion-products", async (req, res) => {
+        const cursor = productsCollection.find({suggestion: true});
+        const products = await cursor.toArray();
+        res.send( products);
+    })
     //pagination 
     app.post("/products/:page", async (req, res) => {
         const page = req.params.page;
@@ -81,11 +93,16 @@ async function run() {
         const products = await cursor.toArray();
         res.send( products);
     })
+    //delete product
+    app.delete("/product/:id", async (req, res) => {
+        const id = req.params.id;
+        const result = await productsCollection.deleteOne({_id: new ObjectId(id)});
+        res.send(result);
+    })
     //update product
     app.put("/update-product/:id", async (req, res) => {
         const id = req.params.id;
         const updatedProduct = req.body;
-        console.log(updatedProduct);
         const filter = { _id: new ObjectId(id) };
 
         const options = { upsert: true };
@@ -120,12 +137,11 @@ async function run() {
     const cartCollection = client.db("AutomotiveDB").collection("cart");
     app.post("/cart", async (req, res) => {
         const newProduct = req.body;
-        console.log('adding new product: ', newProduct);
         const result = await cartCollection.insertOne(newProduct);
         res.send(result);
     })
     //get cart by email
-    app.post("/cart/:email", async (req, res) => {
+    app.get("/cart/:email", async (req, res) => {
         const email = req.params.email;
         const cursor = cartCollection.find({email: email});
         const products = await cursor.toArray();
@@ -133,10 +149,17 @@ async function run() {
        
     })
     //delete from cart by email
-    app.delete("/cart-product/:id", async (req, res) => {
+    app.delete("/cart/:id", async (req, res) => {
         const id = req.params.id;
         const result = await cartCollection.deleteOne({_id: new ObjectId(id)});
         res.send(result);
+    })
+
+    //delete all from cart by email
+    app.delete("/cart-all/:email", async (req, res) => {
+        const email = req.params.email;
+        const cart = cartCollection.deleteMany({email: email});
+        res.send(cart);
     })
     
 
@@ -152,9 +175,15 @@ async function run() {
 
     //userinfo
     const userInfoCollection = client.db("AutomotiveDB").collection("userInfo");
+    app.get("/user/:uid", async (req, res) => {
+        const uid = req.params.uid;
+        const cursor = userInfoCollection.find({uid: uid});
+        const user = await cursor.toArray();
+        res.send(user);
+    })
+    //add user info
     app.post("/user", async (req, res) => {
         const newUserInfo = req.body;
-        console.log('adding new user info: ', newUserInfo);
         const result = await userInfoCollection.insertOne(newUserInfo);
         res.send(result);
     })
@@ -174,13 +203,11 @@ async function run() {
 
             }
         }
-        const result = await userInfoCollection.updateOne(filter, updateDoc);
+        const result = await userInfoCollection.updateOne(filter, updateDoc );
         res.send(result);
     })
     app.put("/user", async (req, res) => {
         const user = req.body;
-        console.log('updating user info: ', user);
-        console.log('updating user info: ', user);
         const filter = { uid: user.uid }
         const updateDoc = {
             $set: {
@@ -213,7 +240,7 @@ run().catch(console.dir);
 app.get('/', (req, res) => {
         res.send(`Brand Server Running...
         <br>
-        <a href="/products">Products</a>
+        <a href="/all-products">Products</a>
         `)
 });
 
