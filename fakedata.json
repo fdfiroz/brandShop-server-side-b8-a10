@@ -1,425 +1,92 @@
-[
-  {
-    "image": "bike1.jpg",
-    "name": "Honda CBR150R",
-    "brandName": "Honda",
-    "category ": "Motorcycle",
-    "price": "250000",
-    "rating": "4.5",
-    "suggestion ": "true"
+{
+
+  "name": "TVS Apache RTR 160 4v (SD)",
+  "brandName": "TVS ",
+  "description": "TVS's Apache RTR series is a great success in India and Bangladesh. In Bangladesh, TVS has achieved the basics through RTR. Subsequently ‘TVS Apache RTR 4V’ is coming to the market in Bangladesh",
+  "category": "Motorcycle",
+  "price": "194990",
+  "image": "https://i.ibb.co/HVc3gsR/image.png",
+  "rating":  "4",
+  "suggestion": true
+},
+{
+
+  "name": "TVS Apache RTR 160 4V (Smart-X, ABS)",
+  "brandName": "TVS ",
+  "description": "TVS's Apache RTR series is a great success in India and Bangladesh. In Bangladesh, TVS has achieved the basics through RTR. Subsequently ‘TVS Apache RTR 4V’ is coming to the market in Bangladesh",
+  "category": "Motorcycle",
+  "price": "239986",
+  "image": "https://i.ibb.co/HVc3gsR/image.png",
+  "rating": "5",
+  "suggestion": true
+},
+{
+  "_id": {
+    "$oid": "65313115b5e56d2f73175421"
   },
-  {
-    "image": "car1.jpg",
-    "name": "Toyota Corolla",
-    "brandName": "Toyota",
-    "category ": "Car",
-    "price": "3000000",
-    "rating": "4.2",
-    "suggestion ": "true"
+  "uid": "arwgiTObB0cSrFxL1NdrT1rzxcm2",
+  "name": "GIXXER 155CC (SD)",
+  "brandName": "Suzuki",
+  "description": "Here is the latest version of your favorite street sport bike with the same engine specifications and engine test as the Gixxer. With its new advanced Disc-Brake, it promises a really fabulous, more stable and more confident riding experience on all kinds of terrain. Another addition Gixxer Monotone Classic Plus comes with two variants; Brilliant Silver & Majestic Yellow. Another edition to Gixxer Monotone Series, Gixxer Classic Matt comes in 3 new colors; Matt Cobalt Blue, Matt Elegant Black, and Matt Majestic Red. Gixxer Monotone Classic Plus & Gixxer Classic Matt both series ",
+  "category": "Motorcycle",
+  "price": "239986",
+  "image": "https://i.ibb.co/b6r87yC/image.png",
+  "rating": "5",
+  "suggestion": "true"
+},
+{
+  "_id": {
+    "$oid": "65313115b5e56d2f73175421"
   },
-  {
-    "image": "bike2.jpg",
-    "name": "Yamaha FZS-FI V3",
-    "brandName": "Yamaha",
-    "category ": "Motorcycle",
-    "price": "220000",
-    "rating": "4.3",
-    "suggestion ": "true"
+  "uid": "arwgiTObB0cSrFxL1NdrT1rzxcm2",
+  "name": "GIXXER 155CC (SD)",
+  "brandName": "Suzuki",
+  "description": "Here is the latest version of your favorite street sport bike with the same engine specifications and engine test as the Gixxer. With its new advanced Disc-Brake, it promises a really fabulous, more stable and more confident riding experience on all kinds of terrain. Another addition Gixxer Monotone Classic Plus comes with two variants; Brilliant Silver & Majestic Yellow. Another edition to Gixxer Monotone Series, Gixxer Classic Matt comes in 3 new colors; Matt Cobalt Blue, Matt Elegant Black, and Matt Majestic Red. Gixxer Monotone Classic Plus & Gixxer Classic Matt both series ",
+  "category": "Motorcycle",
+  "price": "239986",
+  "image": "https://i.ibb.co/b6r87yC/image.png",
+  "rating": "5",
+  "suggestion": "true"
+},
+{
+  "_id": {
+    "$oid": "6531322fb5e56d2f73175423"
   },
-  {
-    "image": "car2.jpg",
-    "name": "Suzuki Swift",
-    "brandName": "Suzuki",
-    "category ": "Car",
-    "price": "2500000",
-    "rating": "4.0",
-    "suggestion ": "true"
+  "uid": "arwgiTObB0cSrFxL1NdrT1rzxcm2",
+  "name": "GIXXER 155CC Fi-Disc",
+  "brandName": "Suzuki",
+  "description": "The New Gixxer is featured with the muscular street bike styling right, the overall ethos of the appearance is premium & stylish. There’s a large, sculpted fuel tank that takes center stage, and the flat, wide handlebars give the New Gixxer a butch stance. The New Gixxer’s sharp look is also thanks to the LED headlight and tail-lamp that Suzuki is offering. Turn indicators continue to be conventional bulbs. Instrumentation is a fully digital affair with read-outs like two trip meters and real-time fuel efficiency being shown. Single-channel ABS ensures safety when panic braking. ",
+  "category": "Motorcycle",
+  "price": "236950",
+  "image": "https://i.ibb.co/qFMTtpM/image.png",
+  "rating": "5",
+  "suggestion": true
+},
+{
+  "_id": {
+    "$oid": "65313286b5e56d2f73175424"
   },
-  {
-    "image": "bike3.jpg",
-    "name": "Bajaj Pulsar 150",
-    "brandName": "Bajaj",
-    "category ": "Motorcycle",
-    "price": "180000",
-    "rating": "4.1",
-    "suggestion ": "true"
+  "uid": "arwgiTObB0cSrFxL1NdrT1rzxcm2",
+  "name": "GIXXER 155CC Carb-Disc",
+  "brandName": "Suzuki",
+  "description": "The New Gixxer is featured with the muscular street bike styling right, the overall ethos of the appearance is premium & stylish. There’s a large, sculpted fuel tank that takes center stage, and the flat, wide handlebars give the New Gixxer a butch stance. The New Gixxer’s sharp look is also thanks to the LED headlight and tail-lamp that Suzuki is offering. Turn indicators continue to be conventional bulbs. Instrumentation is a fully digital affair with read-outs like two trip meters and real-time fuel efficiency being shown. Single-channel ABS ensures safety when panic braking. ",
+  "category": "Motorcycle",
+  "price": "224949",
+  "image": "https://i.ibb.co/qFMTtpM/image.png",
+  "rating": "5",
+  "suggestion": true
+},
+{
+  "_id": {
+    "$oid": "6531930b36248737a4bd7e01"
   },
-  {
-    "image": "car3.jpg",
-    "name": "Nissan Sunny",
-    "brandName": "Nissan",
-    "category ": "Car",
-    "price": "2200000",
-    "rating": "3.9",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike4.jpg",
-    "name": "TVS Apache RTR 160 4V",
-    "brandName": "TVS",
-    "category ": "Motorcycle",
-    "price": "200000",
-    "rating": "4.0",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car4.jpg",
-    "name": "Mitsubishi Lancer",
-    "brandName": "Mitsubishi",
-    "category ": "Car",
-    "price": "2800000",
-    "rating": "3.8",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike5.jpg",
-    "name": "Hero Glamour",
-    "brandName": "Hero",
-    "category ": "Motorcycle",
-    "price": "150000",
-    "rating": "3.9",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car5.jpg",
-    "name": "Hyundai Elantra",
-    "brandName": "Hyundai",
-    "category ": "Car",
-    "price": "3200000",
-    "rating": "3.7",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike6.jpg",
-    "name": "Suzuki Gixxer SF",
-    "brandName": "Suzuki",
-    "category ": "Motorcycle",
-    "price": "230000",
-    "rating": "3.8",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car6.jpg",
-    "name": "Honda Civic",
-    "brandName": "Honda",
-    "category ": "Car",
-    "price": "3400000",
-    "rating": "3.6",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike7.jpg",
-    "name": "Yamaha FZ V3",
-    "brandName": "Yamaha",
-    "category ": "Motorcycle",
-    "price": "210000",
-    "rating": "3.7",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car7.jpg",
-    "name": "Kia Rio",
-    "brandName": "Kia",
-    "category ": "Car",
-    "price": "2600000",
-    "rating": "3.5",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike8.jpg",
-    "name": "Bajaj Discover 125",
-    "brandName": "Bajaj",
-    "category ": "Motorcycle",
-    "price": "130000",
-    "rating": "3.6",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car8.jpg",
-    "name": "Ford Fiesta",
-    "brandName": "Ford",
-    "category ": "Car",
-    "price": "3000000",
-    "rating": "3.4",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike9.jpg",
-    "name": "TVS Apache RTR 160",
-    "brandName": "TVS",
-    "category ": "Motorcycle",
-    "price": "190000",
-    "rating": "3.5",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car9.jpg",
-    "name": "Chevrolet Cruze",
-    "brandName": "Chevrolet",
-    "category ": "Car",
-    "price": "2800000",
-    "rating": "3.3",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike10.jpg",
-    "name": "Hero Hunk",
-    "brandName": "Hero",
-    "category ": "Motorcycle",
-    "price": "170000",
-    "rating": "3.4",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car10.jpg",
-    "name": "Volkswagen Vento",
-    "brandName": "Volkswagen",
-    "category ": "Car",
-    "price": "3200000",
-    "rating": "3.2",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike11.jpg",
-    "name": "Honda CB Shine",
-    "brandName": "Honda",
-    "category ": "Motorcycle",
-    "price": "160000",
-    "rating": "3.3",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car11.jpg",
-    "name": "Tata Indigo",
-    "brandName": "Tata",
-    "category ": "Car",
-    "price": "2400000",
-    "rating": "3.1",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike12.jpg",
-    "name": "Yamaha FZS-FI V2",
-    "brandName": "Yamaha",
-    "category ": "Motorcycle",
-    "price": "200000",
-    "rating": "3.2",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car12.jpg",
-    "name": "Renault Duster",
-    "brandName": "Renault",
-    "category ": "Car",
-    "price": "2800000",
-    "rating": "3.0",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike13.jpg",
-    "name": "Bajaj Avenger Cruise 220",
-    "brandName": "Bajaj",
-    "category ": "Motorcycle",
-    "price": "250000",
-    "rating": "3.1",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car13.jpg",
-    "name": "Mazda Axela",
-    "brandName": "Mazda",
-    "category ": "Car",
-    "price": "3000000",
-    "rating": "2.9",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike14.jpg",
-    "name": "TVS Apache RTR 200 4V",
-    "brandName": "TVS",
-    "category ": "Motorcycle",
-    "price": "240000",
-    "rating": "3.0",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car14.jpg",
-    "name": "Subaru Impreza",
-    "brandName": "Subaru",
-    "category ": "Car",
-    "price": "3400000",
-    "rating": "2.8",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike15.jpg",
-    "name": "Hero Xtreme 160R",
-    "brandName": "Hero",
-    "category ": "Motorcycle",
-    "price": "180000",
-    "rating": "2.9",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car15.jpg",
-    "name": "Peugeot 301",
-    "brandName": "Peugeot",
-    "category ": "Car",
-    "price": "2600000",
-    "rating": "2.7",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike16.jpg",
-    "name": "Honda Livo",
-    "brandName": "Honda",
-    "category ": "Motorcycle",
-    "price": "150000",
-    "rating": "2.8",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car16.jpg",
-    "name": "Proton Persona",
-    "brandName": "Proton",
-    "category ": "Car",
-    "price": "2800000",
-    "rating": "2.6",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike17.jpg",
-    "name": "Yamaha Saluto",
-    "brandName": "Yamaha",
-    "category ": "Motorcycle",
-    "price": "140000",
-    "rating": "2.7",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car17.jpg",
-    "name": "Chery Tiggo 3",
-    "brandName": "Chery",
-    "category ": "Car",
-    "price": "3200000",
-    "rating": "2.5",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike18.jpg",
-    "name": "Bajaj Pulsar NS160",
-    "brandName": "Bajaj",
-    "category ": "Motorcycle",
-    "price": "190000",
-    "rating": "2.6",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car18.jpg",
-    "name": "Geely Emgrand 7",
-    "brandName": "Geely",
-    "category ": "Car",
-    "price": "3000000",
-    "rating": "2.4",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike19.jpg",
-    "name": "TVS Apache RTR 180",
-    "brandName": "TVS",
-    "category ": "Motorcycle",
-    "price": "200000",
-    "rating": "2.5",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car19.jpg",
-    "name": "Citroen C4",
-    "brandName": "Citroen",
-    "category ": "Car",
-    "price": "3400000",
-    "rating": "2.3",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike20.jpg",
-    "name": "Hero Splendor iSmart",
-    "brandName": "Hero",
-    "category ": "Motorcycle",
-    "price": "130000",
-    "rating": "2.4",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car20.jpg",
-    "name": "Fiat Linea",
-    "brandName": "Fiat",
-    "category ": "Car",
-    "price": "2800000",
-    "rating": "2.2",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike21.jpg",
-    "name": "Honda Dream Yuga",
-    "brandName": "Honda",
-    "category ": "Motorcycle",
-    "price": "120000",
-    "rating": "2.3",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car21.jpg",
-    "name": "Mahindra Verito",
-    "brandName": "Mahindra",
-    "category ": "Car",
-    "price": "2600000",
-    "rating": "2.1",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike22.jpg",
-    "name": "Yamaha SZ-RR",
-    "brandName": "Yamaha",
-    "category ": "Motorcycle",
-    "price": "130000",
-    "rating": "2.2",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car22.jpg",
-    "name": "Opel Astra",
-    "brandName": "Opel",
-    "category ": "Car",
-    "price": "3000000",
-    "rating": "2.0",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike23.jpg",
-    "name": "Bajaj CT100",
-    "brandName": "Bajaj",
-    "category ": "Motorcycle",
-    "price": "90000",
-    "rating": "2.1",
-    "suggestion ": "true"
-  },
-  {
-    "image": "car23.jpg",
-    "name": "SsangYong Tivoli",
-    "brandName": "SsangYong",
-    "category ": "Car",
-    "price": "3200000",
-    "rating": "1.9",
-    "suggestion ": "true"
-  },
-  {
-    "image": "bike24.jpg",
-    "name": "TVS Radeon",
-    "brandName": "TVS",
-    "category ": "Motorcycle",
-    "price": "110000",
-    "rating": "2.0",
-    "suggestion ": "true"
-  }
-]
+  "uid": "Tq1w2NOlw8huzKLqCUfvoGMSNpn1",
+  "name": "Avenger Street 160",
+  "brandName": "Bajaj",
+  "description": "Flaunt an all-new presence with striking new graphics, alloy wheels, a contoured seat, a lower handlebar, and Single channel ABS for more accessible, more comfortable riding.",
+  "category": "Motorcycle",
+  "price": "274000",
+  "image": "https://i.ibb.co/x2RdBCf/image.png",
+  "rating": "3",
+  "suggestion": false
+},
